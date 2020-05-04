@@ -1,0 +1,551 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0" charset="utf-8" />
+	<link rel="stylesheet" href="../stylesheets/home.css" />
+	<link href='https://fonts.googleapis.com/css' rel='stylesheet'>
+	<title>Services</title>
+</head>
+<body>
+	<!--INTRO SECTION-->
+	<header>
+		<div class="topnav">
+			<a href="#home" class="home"><img id="icon"  src="../resources/icons/snow.png"/></a>
+			<div class="links clearfix">
+				<a href="#about">ABOUT</a>
+				<a href="#portfolio">PORTFOLIO</a>
+				<a href="#blog">BLOG</a>
+				<a href="#themes">WORDPRESS THEMES</a>
+				<a href="contact">CONTACT</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="navdisplay()"><img src="../resources/icons/menu.png"/></a>
+		</div>
+	</header>
+	<!--INTRO PAGE-->
+	<div class="row intro">
+		<div class="col-12 hero-img">
+			<img sizes="100vw"
+				 srcset="
+						../resources/images/hero-img-2/home-hero_htthc0_c_scale,w_1200.jpg 1200w,
+						../resources/images/hero-img-2/home-hero_htthc0_c_scale,w_3008.jpg 3008w,
+						../resources/images/hero-img-2/home-hero_htthc0_c_scale,w_3840.jpg 3840w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_16_9,c_fill,g_auto__c_scale,w_992.jpg 992w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_16_9,c_fill,g_auto__c_scale,w_1168.jpg 1168w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_16_9,c_fill,g_auto__c_scale,w_1199.jpg 1199w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_4_3,c_fill,g_auto__c_scale,w_768.jpg 768w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_4_3,c_fill,g_auto__c_scale,w_926.jpg 926w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_4_3,c_fill,g_auto__c_scale,w_991.jpg 991w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_1_1,c_fill,g_auto__c_scale,w_585.jpg 585w,
+						../resources/images/hero-img-2/home-hero_htthc0_ar_1_1,c_fill,g_auto__c_scale,w_767.jpg 767w"
+				src="../resources/images/hero-img-2/home-hero_htthc0_c_scale,w_3840.jpg"
+				 alt="hero image"style="width:100%;height:100%;">
+			<div class="hero-text">
+				<h2>WE IMPROVE THE WAY YOU PROSPER</h2>
+				<h3>SEE THE RESULTS FOR YOURSELF</h3>
+				<button id="hire"><span>HIRE US!</span></button>
+			</div>
+		</div>
+	</div>
+	<!--INTRO END-->
+	<!--ABOUT START-->
+	<div class="row white-bg">
+		<div class="col-12 about">
+			<div class="space-sm col-12"></div>
+			<div class="container-center">
+				<h2 style="color:black;font-weight:bolder;">About Our Agency</h2>
+				<p>We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps. Clever use of technology and lean processes enable us to work faster and smarter.</p>
+				<img id="sign" src="../resources/images/black.png" />
+			</div>
+		</div>
+	</div>
+	<!--ABOUT END-->
+	<!--PORTFOLIO START-->
+	<div class="row black-bg">
+		<div class="space-sm col-12"></div>
+		<div class="col-3 profile">
+			<div class="container-100 clearfix">
+				<div class="container-50 clearfix">
+					<img src="../resources/icons/tick.png" />
+				</div>
+				<div class="container-50 clearfix">
+					<div class="title">548</div>
+					<div class="title">Projects Completed</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-3 profile">
+			<div class="container-100 clearfix">
+				<div class="container-50 clearfix">
+					<img src="../resources/icons/star.png" />
+				</div>
+				<div class="container-50 clearfix">
+					<div class="title">Over 600</div>
+					<div class="title">Five Stars</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-3 profile">
+			<div class="container-100 clearfix">
+				<div class="container-50 clearfix">
+					<img src="../resources/icons/clock.png" />
+				</div>
+				<div class="container-50 clearfix">
+					<div class="title">1000</div>
+					<div class="title">Working Hours</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-3 profile">
+			<div class="container-100 clearfix">
+				<div class="container-50 clearfix">
+					<img src="../resources/icons/heart.png" />
+				</div>
+				<div class="container-50 clearfix">
+					<div class="title">Over 600</div>
+					<div class="title">Happy Clients</div>
+				</div>
+			</div>
+		</div>
+		<div class="space-sm col-12"></div>
+	</div>
+	<div class="row white-bg">
+		<div class="space-sm"></div>
+		<div class="col-12">
+			<div class="container-center">
+				<h2 style="color:black;font-weight:bolder;">Best Projects</h2>
+				<p>Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.</p>
+			</div>	
+			<div class="container-center-wide">
+				<div class="container-33 clearfix">
+					<a class="portfolio-link" href="#project">
+						<img sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (min-width: 768px) 30vw"
+							 srcset="
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_360.jpg 360w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_2276.jpg 2276w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg 3374w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_298.jpg 298w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_720.jpg 720w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_308.jpg 308w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_689.jpg 689w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_794.jpg 794w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_904.jpg 904w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_1382.jpg 1382w"
+							 src="../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg"
+							 alt="">
+						<span class="overlay-black">
+											<span>Design Project
+												<span style="padding:0">Simple & Seemless</span>
+											</span>
+						</span>
+					</a>
+				</div>
+				<div class="container-33 clearfix">
+					<a class="portfolio-link" href="#project">
+						<img sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (min-width: 768px) 30vw"
+							 srcset="
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_360.jpg 360w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_2276.jpg 2276w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg 3374w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_298.jpg 298w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_720.jpg 720w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_308.jpg 308w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_689.jpg 689w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_794.jpg 794w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_904.jpg 904w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_1382.jpg 1382w"
+							 src="../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg"
+							 alt="">
+						<span class="overlay-black">
+							<span>
+								Design Project
+								<span style="padding:0">Simple & Seemless</span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="container-33 clearfix">
+					<a class="portfolio-link" href="#project">
+						<img sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (min-width: 768px) 30vw"
+							 srcset="
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_360.jpg 360w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_2276.jpg 2276w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg 3374w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_298.jpg 298w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_720.jpg 720w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_308.jpg 308w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_689.jpg 689w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_794.jpg 794w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_904.jpg 904w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_1382.jpg 1382w"
+							 src="../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg"
+							 alt="">
+						<span class="overlay-black">
+							<span>
+								Design Project
+								<span style="padding:0">Simple & Seemless</span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="container-33 clearfix">
+					<a class="portfolio-link" href="#project">
+						<img sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (min-width: 768px) 30vw"
+							 srcset="
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_360.jpg 360w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_2276.jpg 2276w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg 3374w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_298.jpg 298w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_720.jpg 720w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_308.jpg 308w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_689.jpg 689w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_794.jpg 794w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_904.jpg 904w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_1382.jpg 1382w"
+							 src="../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg"
+							 alt="">
+						<span class="overlay-black">
+							<span>
+								Design Project
+								<span style="padding:0">Simple & Seemless</span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="container-33 clearfix">
+					<a class="portfolio-link" href="#project">
+						<img sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (min-width: 768px) 30vw"
+							 srcset="
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_360.jpg 360w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_2276.jpg 2276w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg 3374w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_298.jpg 298w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_720.jpg 720w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_308.jpg 308w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_689.jpg 689w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_794.jpg 794w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_904.jpg 904w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_1382.jpg 1382w"
+							 src="../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg"
+							 alt="">
+						<span class="overlay-black">
+							<span>
+								Design Project
+								<span style="padding:0">Simple & Seemless</span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="container-33 clearfix">
+					<a class="portfolio-link" href="#project">
+						<img sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (min-width: 768px) 30vw"
+							 srcset="
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_360.jpg 360w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_2276.jpg 2276w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg 3374w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_298.jpg 298w,
+								../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_720.jpg 720w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_308.jpg 308w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_689.jpg 689w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_794.jpg 794w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_190.jpg 190w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_904.jpg 904w,
+								../resources/images/project/project_j3nmm6_ar_1_1,c_fill,g_auto__c_scale,w_1382.jpg 1382w"
+							 src="../resources/images/project/project_j3nmm6_ar_4_3,c_fill,g_auto__c_scale,w_3374.jpg"
+							 alt="">
+						<span class="overlay-black">
+							<span>
+								Design Project
+								<span style="padding:0">Simple & Seemless</span>
+							</span>
+						</span>
+					</a>
+				</div>
+			</div>
+	</div>
+</div>
+	<!--PORTFOLIO END-->
+	<!--CLIENT REVIEWS START-->
+	<div class="space-sm"></div>
+	<div class="row black-bg">
+		<div class="col-12 review-bar">
+			<div class="space-sm"></div>
+			<div class="container-center reviews" style="display:block;opacity:100;">
+				<h3 style="color:whitesmoke;font-size:1.2rem;font-family:'Book Antiqua';font-style:italic;">
+					"It was a pleasure working with your agency. You provided with the best in class platform for our
+					industrial and business needs. We hope to work with your agency sometime again in future"
+				</h3>
+				<p style="font-size:0.6rem; text-transform:uppercase;color:whitesmoke;">Micheal Hopkins</p>
+			</div>
+			<div class="container-center reviews">
+				<h3 style="color:whitesmoke;font-size:1.2rem;font-family:'Book Antiqua';font-style:italic;">
+					"It was a pleasure working with your agency. You provided with the best in class platform for our
+					industrial and business needs. We hope to work with your agency sometime again in future"
+				</h3>
+				<p style="font-size:0.6rem; text-transform:uppercase;color:whitesmoke;">Yousaf Sami</p>
+			</div>
+			<div class="container-center reviews">
+				<h3 style="color:whitesmoke;font-size:1.2rem;font-family:'Book Antiqua';font-style:italic;">
+					"It was a pleasure working with your agency. You provided with the best in class platform for our
+					industrial and business needs. We hope to work with your agency sometime again in future"
+				</h3>
+				<p style="font-size:0.6rem; text-transform:uppercase;color:whitesmoke;">Barack Obama</p>
+			</div>
+			<!--NAVIGATION BUTTONS-->
+			<a class="forward" onclick="forward()">&#10095;</a>
+			<a class="backward" onclick="backward()">&#10094;</a>
+			<!--NAVIGATION BUTTONS END-->
+		</div>
+	</div>
+	<!--CLIENT REVIEWS END-->
+	<!--PARTENERS LIST START-->
+	<div class="row parteners">
+		<div class="col-12">
+			<div class="container-center-wide parteners">
+				<div class="container-25 clearfix">1
+					<img sizes="(max-width: 479px) 40vw, (max-width:767px) 30vw, (min-width: 768px) 20vw"
+						 srcset="
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_240.png 240w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png 500w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_199.png 199w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_480.png 480w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_231.png 231w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_190.png 190w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w"
+						 src="../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png"
+						 alt="">
+				</div>
+				<div class="container-25 clearfix">2
+					<img sizes="(max-width: 479px) 40vw, (max-width:767px) 30vw, (min-width: 768px) 20vw"
+						 srcset="
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_240.png 240w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png 500w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_199.png 199w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_480.png 480w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_231.png 231w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_190.png 190w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w"
+						 src="../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png"
+						 alt="">
+				</div>
+				<div class="container-25 clearfix">3
+					<img sizes="(max-width: 479px) 40vw, (max-width:767px) 30vw, (min-width: 768px) 20vw"
+						 srcset="
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_240.png 240w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png 500w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_199.png 199w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_480.png 480w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_231.png 231w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_190.png 190w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w"
+						 src="../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png"
+						 alt="">
+				</div>
+				<div class="container-25 clearfix">4
+					<img sizes="(max-width: 479px) 40vw, (max-width:767px) 30vw, (min-width: 768px) 20vw"
+						 srcset="
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_240.png 240w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png 500w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_199.png 199w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_480.png 480w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_231.png 231w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_190.png 190w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w"
+						 src="../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png"
+						 alt="">
+				</div>
+				<div class="container-25 clearfix">5
+					<img sizes="(max-width: 479px) 40vw, (max-width:767px) 30vw, (min-width: 768px) 20vw"
+						 srcset="
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_240.png 240w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png 500w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_199.png 199w,
+								../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_480.png 480w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_231.png 231w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_190.png 190w,
+								../resources/icons/adidas/adidas_ajivaw_ar_1_1,c_fill,g_auto__c_scale,w_451.png 451w"
+						 src="../resources/icons/adidas/adidas_ajivaw_ar_4_3,c_fill,g_auto__c_scale,w_500.png"
+						 alt="">
+				</div>
+				<!--NAVIGATION BUTTONS-->
+				<a class="forward" onclick="next_partener()">&#10095;</a>
+				<a class="backward" onclick="prev_partener()">&#10094;</a>
+				<!--NAVIGATION BUTTONS END-->
+			</div>
+		</div>
+	</div>
+	<!--PARTENERS LIST END-->
+	<!--SCRIPTS-->
+	<script>
+		function navdisplay() {
+			var x = document.getElementsByClassName("links");
+			var y = document.getElementsByClassName("home");
+			var z = document.getElementsByClassName("icon");
+			if (x[0].style.display === "block") {
+				x[0].style.display = "none";
+				y[0].style.display = "block";
+				
+				z[0].style.backgroundColor = "transparent";
+			} else {
+				x[0].style.display = "block";
+				y[0].style.display = "none";
+				
+				z[0].style.backgroundColor = "rgba(225,225,225,0.5)";
+			}
+		}
+		//Forward Backward Buttons
+		function forward() {
+			var r = document.getElementsByClassName("reviews");
+			var i;
+			for (i = 0; i < r.length; i++) {
+				if (r[i].style.display === "block")
+					break;
+			}
+			if (i === (r.length - 1)) {
+				r[i].style.display = "none";
+				r[i].style.opacity = "0.4";
+				i = 0;
+				r[i].style.display = "block";
+				r[i].style.opacity = "1";
+			}
+			else {
+				r[i].style.display = "none";
+				r[i].style.opacity = "0.4";
+				r[i + 1].style.display = "block";
+				r[i + 1].style.opacity = "1";
+			}
+		}
+		//Go Back function
+		function backward() {
+			var r = document.getElementsByClassName("reviews");
+			var i;
+			for (i = 0; i < r.length; i++) {
+				if (r[i].style.display === "block") {
+					break;
+				}
+			}
+			if (i === 0) {
+				r[i].style.display = "none";
+				r[i].style.opacity = "0.4";
+				i = r.length
+				r[i - 1].style.display = "block";
+				r[i - 1].style.opacity = "1";
+			}
+			else {
+				r[i].style.display = "none";
+				r[i].style.opacity = "0.4";
+				r[i - 1].style.display = "block";
+				r[i - 1].style.opacity = "1";
+			}
+		}
+		</script>
+	<script>
+		//PARTENERS LIST. DISPLAYING CORRECT NUMBERS
+		var p = document.getElementsByClassName("container-25");
+
+		//SET THE DISPLAY OF SUITABLE ELEMENTS ON LOAD AND ON RESIZE
+		var onResizing = function (event) {
+			//FIRST SET DISPLAY OF 3 PARTENERS TO BLOCK(DESKTOPS)
+			if (window.matchMedia("(min-width:768px").matches) {
+				for (var i = 0; i < 3; i++)
+					p[i].style.display = "block";
+				for (var i = 3; i < p.length; i++)
+					p[i].style.display = "none";
+			} //TABLETS
+			else if (window.matchMedia("(min-width:480px) and (max-width:767px)").matches) {
+				for (var i = 0; i < 2; i++)
+					p[i].style.display = "block";
+				for (var i = 2; i < p.length; i++)
+					p[i].style.display = "none";
+			} //MOBILE PHONES
+			else if (window.matchMedia("(max-width:479px)").matches) {
+				p[0].style.display = "block";
+				for (var i = 1; i < p.length; i++)
+					p[i].style.display = "none";
+			}
+		}
+		window.addEventListener("load", onResizing);
+		window.addEventListener("resize", onResizing);
+
+		//Parteners forward and backward buttons (next_partener() & prev_partener())
+		//GET VIEWPORT WIDTH AND THEN ACT ACCORDINGLY
+		function next_partener() {
+			var i;
+			if (window.matchMedia("(max-width:479px)").matches) {
+				for (i = 0; i < p.length; i++) {
+					if (p[i].style.display === "block")
+						break;
+				}
+				if (i === (p.length - 1)) {
+					p[i].style.display = "none";
+					i = -1
+					p[i + 1].style.display = "block";
+				}
+				else {
+					p[i].style.display = "none";
+					p[i + 1].style.display = "block";
+				}
+			}
+			else if (window.matchMedia("(min-width:480px) and (max-width:767px)").matches) {
+				for (i = 0; i < p.length; i++) {
+					if (p[i].style.display === "block") {
+						break;
+					}
+				}
+				if (i === (p.length - 2)) {
+					p[i].style.display = "none";
+					i = 0;
+					p[i].style.display = "block";
+
+				}
+				else if ((i === 0) && (p[p.length - 1].style.display === "block")) {
+					p[p.length - 1].style.display = "none";
+					p[i + 1].style.display = "block";
+				}
+				else {
+					p[i].style.display = "none";
+					p[i + 2].style.display = "block";
+				}
+
+			}
+			else if (window.matchMedia("(min-width:768px)").matches) {
+				for (i = 0; i < p.length; i++) {
+					if (p[i].style.display === "block") {
+						break;
+					}
+				}//For loop close
+				if (i === (p.length - 3))
+				{
+					p[i].style.display = "none";
+					i = 0;
+					p[i].style.display = "block";
+				}
+				else if ((i === 0) && (p[p.length - 1].style.display === "block"))
+				{
+					p[p.length - 1].style.display = "none";
+					p[i + 1].style.display = "block";
+				}
+				else if ((i === 0) && (p[p.length - 2].style.display === "block")) {
+					p[p.length - 2].style.display = "none";
+					p[i + 2].style.display = "block";
+				}
+				else {
+					p[i].style.display = "none";
+					p[i + 3].style.display = "block";
+				}
+			}
+		}
+
+	</script>
+</body>
+</html>
